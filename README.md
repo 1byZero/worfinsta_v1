@@ -21,6 +21,7 @@ The documentation for the **Worfinsta** is hosted at our [website](https://worf.
 
 <br /> 
 ## Installation
+<br />
 1. Install [bench & frappe](https://frappeframework.com/docs/v14/user/en/installation).
 
 2. Once setup is complete, add the payments app to your bench by running
