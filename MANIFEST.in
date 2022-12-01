@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include worfinsta_v1 *.css
+recursive-include worfinsta_v1 *.csv
+recursive-include worfinsta_v1 *.html
+recursive-include worfinsta_v1 *.ico
+recursive-include worfinsta_v1 *.js
+recursive-include worfinsta_v1 *.json
+recursive-include worfinsta_v1 *.md
+recursive-include worfinsta_v1 *.png
+recursive-include worfinsta_v1 *.py
+recursive-include worfinsta_v1 *.svg
+recursive-include worfinsta_v1 *.txt
+recursive-exclude worfinsta_v1 *.pyc
