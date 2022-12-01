@@ -1,16 +1,12 @@
-# [Worfinsta_v1 - Influencer Marketing App](https://worf.in) [![Worfinsta_v1 - Influencer Marketing App](#)](#)
+# [Worfinsta_v1 - Influencer Marketing App](https://worf.in)
 
-
-**Worfinsta_v1 - Influencer Marketing App](#)** crafted on top of **Frappe Bench**. Start your development with a modern Bootstrap 5 Admin template for Django. Soft UI Dashboard is built with over 70 individual components, giving you the freedom of choosing and combining. If you want to code faster, with a smooth workflow, then you should try this template carefully developed with Django, a well-known Python Framework.
+**Worfinsta_v1 - Influencer Marketing App](#V1)** crafted on top of **Frappe Bench**.
 
 <br />
 
 ## Table of Contents
 * [Versions](#versions)
-* [Demo](#demo)
-* [Quick Start](#quick-start)
 * [Documentation](#documentation)
-* [File Structure](#file-structure)
 * [Browser Support](#browser-support)
 * [Resources](#resources)
 * [Reporting Issues](#reporting-issues)
@@ -20,25 +16,37 @@
 
 <br />
 
-## Demo
-
-> To authenticate use the default credentials ***test / ApS12_ZZs8*** or create a new user on the **registration page**.
-
-- **Worfinsta_v1 - Influencer Marketing App ** [Login Page](#)
-
-<br />
-
-
-> Note: To use the app, please access the registration page and create a new user. After authentication, the app will unlock the private pages.
-
-<br />
-
 ## Documentation
 The documentation for the **Worfinsta** is hosted at our [website](https://worf.in).
 
 <br /> 
+## Installation
+<br />
 
+   1. Install [bench & frappe](https://frappeframework.com/docs/v14/user/en/installation).
+    Once setup is complete, add the WorfInsta app to your bench by running
+    
+    ```
+    $ bench get-app https://github.com/1byZero/worfinsta_v1.git
+    ```
+   2. Install the WorfInsta app on the required site by running
+   
+    ```
+    $ bench --site worfinsta.localhost install-app worfinsta_v1
+    ```
 ## Deployment
+
+For Local Deployment
+
+To setup the repository locally follow the steps mentioned below:
+
+    Install bench and setup a frappe-bench directory by following the Installation Steps
+    Start the server by running bench start
+    In a separate terminal window, create a new site by running bench new-site worfinsta.localhost
+    Map your site to localhost with the command bench --site worfinsta.localhost add-to-hosts
+    Get the WorfInsta app. Run bench get-app https://github.com/1byZero/worfinsta_v1.git
+    Run bench --site worfinsta.localhost install-app worfinsta_v1.
+    Now open the URL http://worfinsta.localhost:8000/worfinsta_v1 in your browser, you should see the app running
 
 
 
