@@ -1,5 +1,4 @@
-# [Worfinsta_v1 - Influencer Marketing App](https://worf.in) [![Worfinsta_v1 - Influencer Marketing App](#)](#)
-
+# [Worfinsta_v1 - Influencer Marketing App](https://worf.in)
 
 **Worfinsta_v1 - Influencer Marketing App](#)** crafted on top of **Frappe Bench**. Start your development with a modern Bootstrap 5 Admin template for Django. Soft UI Dashboard is built with over 70 individual components, giving you the freedom of choosing and combining. If you want to code faster, with a smooth workflow, then you should try this template carefully developed with Django, a well-known Python Framework.
 
