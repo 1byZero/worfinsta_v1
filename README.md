@@ -6,10 +6,7 @@
 
 ## Table of Contents
 * [Versions](#versions)
-* [Demo](#demo)
-* [Quick Start](#quick-start)
 * [Documentation](#documentation)
-* [File Structure](#file-structure)
 * [Browser Support](#browser-support)
 * [Resources](#resources)
 * [Reporting Issues](#reporting-issues)
@@ -19,24 +16,21 @@
 
 <br />
 
-## Demo
-
-> To authenticate use the default credentials ***test / ApS12_ZZs8*** or create a new user on the **registration page**.
-
-- **Worfinsta_v1 - Influencer Marketing App ** [Login Page](#)
-
-<br />
-
-
-> Note: To use the app, please access the registration page and create a new user. After authentication, the app will unlock the private pages.
-
-<br />
-
 ## Documentation
 The documentation for the **Worfinsta** is hosted at our [website](https://worf.in).
 
 <br /> 
+## Installation
+1. Install [bench & frappe](https://frappeframework.com/docs/v14/user/en/installation).
 
+2. Once setup is complete, add the payments app to your bench by running
+    ```
+    $ bench get-app https://github.com/1byZero/worfinsta_v1.git
+    ```
+3. Install the payments app on the required site by running
+    ```
+    $ bench --site worfinsta.localhost install-app worfinsta_v1
+    ```
 ## Deployment
 
 For Local Deployment
