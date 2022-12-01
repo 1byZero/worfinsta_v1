@@ -185,3 +185,6 @@ app_license = "MIT"
 # auth_hooks = [
 #	"worfinsta_v1.auth.validate"
 # ]
+
+app_include_js = ['main.bundle.js']
+app_include_css = ['style.bundle.css']
