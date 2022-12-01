@@ -45,11 +45,11 @@ To setup the repository locally follow the steps mentioned below:
 
     Install bench and setup a frappe-bench directory by following the Installation Steps
     Start the server by running bench start
-    In a separate terminal window, create a new site by running bench new-site frappedesk.test
-    Map your site to localhost with the command bench --site frappedesk.test add-to-hosts
-    Get the Frappe Desk app. Run bench get-app https://github.com/frappe/desk
-    Run bench --site frappedesk.test install-app frappedesk.
-    Now open the URL http://frappedesk.test:8000/frappedesk in your browser, you should see the app running
+    In a separate terminal window, create a new site by running bench new-site worfinsta.localhost
+    Map your site to localhost with the command bench --site worfinsta.localhost add-to-hosts
+    Get the Frappe Desk app. Run bench get-app https://github.com/1byZero/worfinsta_v1.git
+    Run bench --site worfinsta.localhost install-app worfinsta_v1.
+    Now open the URL http://worfinsta.localhost:8000/worfinsta_v1 in your browser, you should see the app running
 
 
 
