@@ -23,12 +23,14 @@ The documentation for the **Worfinsta** is hosted at our [website](https://worf.
 ## Installation
 <br />
 
-    Install [bench & frappe](https://frappeframework.com/docs/v14/user/en/installation).
+   1. Install [bench & frappe](https://frappeframework.com/docs/v14/user/en/installation).
     Once setup is complete, add the WorfInsta app to your bench by running
+    
     ```
     $ bench get-app https://github.com/1byZero/worfinsta_v1.git
     ```
-    Install the WorfInsta app on the required site by running
+   2. Install the WorfInsta app on the required site by running
+   
     ```
     $ bench --site worfinsta.localhost install-app worfinsta_v1
     ```
