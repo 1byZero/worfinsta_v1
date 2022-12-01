@@ -1,6 +1,6 @@
 # [Worfinsta_v1 - Influencer Marketing App](https://worf.in)
 
-**Worfinsta_v1 - Influencer Marketing App](#)** crafted on top of **Frappe Bench**.
+**Worfinsta_v1 - Influencer Marketing App](#V1)** crafted on top of **Frappe Bench**.
 
 <br />
 
