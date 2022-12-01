@@ -24,11 +24,11 @@ The documentation for the **Worfinsta** is hosted at our [website](https://worf.
 <br />
 1. Install [bench & frappe](https://frappeframework.com/docs/v14/user/en/installation).
 
-2. Once setup is complete, add the payments app to your bench by running
+2. Once setup is complete, add the WorfInsta app to your bench by running
     ```
     $ bench get-app https://github.com/1byZero/worfinsta_v1.git
     ```
-3. Install the payments app on the required site by running
+3. Install the WorfInsta app on the required site by running
     ```
     $ bench --site worfinsta.localhost install-app worfinsta_v1
     ```
@@ -42,7 +42,7 @@ To setup the repository locally follow the steps mentioned below:
     Start the server by running bench start
     In a separate terminal window, create a new site by running bench new-site worfinsta.localhost
     Map your site to localhost with the command bench --site worfinsta.localhost add-to-hosts
-    Get the Frappe Desk app. Run bench get-app https://github.com/1byZero/worfinsta_v1.git
+    Get the WorfInsta app. Run bench get-app https://github.com/1byZero/worfinsta_v1.git
     Run bench --site worfinsta.localhost install-app worfinsta_v1.
     Now open the URL http://worfinsta.localhost:8000/worfinsta_v1 in your browser, you should see the app running
 
