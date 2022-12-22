@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestInfluencer(FrappeTestCase):
+class TestInfluencerProfiles(FrappeTestCase):
 	pass

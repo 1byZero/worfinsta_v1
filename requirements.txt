@@ -1,2 +1,2 @@
 # frappe -- https://github.com/frappe/frappe is installed via 'bench init'
-instagram-private-api==1.6.0.0 
+instagram-private-api==1.6.0.0

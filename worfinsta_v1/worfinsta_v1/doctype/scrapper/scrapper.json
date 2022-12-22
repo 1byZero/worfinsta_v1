@@ -7,17 +7,23 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "influencer_id",
   "influencer_username",
-  "full_name"
+  "user_id",
+  "full_name",
+  "biography",
+  "follower_count",
+  "following_count",
+  "is_business",
+  "is_verified",
+  "public_email",
+  "hd_profile_pic_url_info",
+  "whatsapp_number",
+  "city_name",
+  "address_street",
+  "contact_phone_number",
+  "amended_from"
  ],
  "fields": [
-  {
-   "fieldname": "influencer_id",
-   "fieldtype": "Data",
-   "label": "User ID",
-   "unique": 1
-  },
   {
    "fieldname": "influencer_username",
    "fieldtype": "Data",
@@ -28,11 +34,83 @@
    "fieldname": "full_name",
    "fieldtype": "Data",
    "label": "Full Name"
+  },
+  {
+   "fieldname": "biography",
+   "fieldtype": "Data",
+   "label": "Biography",
+   "length": 500
+  },
+  {
+   "fieldname": "follower_count",
+   "fieldtype": "Data",
+   "label": "Followers"
+  },
+  {
+   "fieldname": "following_count",
+   "fieldtype": "Data",
+   "label": "Followings"
+  },
+  {
+   "fieldname": "is_business",
+   "fieldtype": "Data",
+   "label": "Business Account"
+  },
+  {
+   "fieldname": "is_verified",
+   "fieldtype": "Data",
+   "label": "Verified Account"
+  },
+  {
+   "fieldname": "public_email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "hd_profile_pic_url_info",
+   "fieldtype": "Data",
+   "label": "Profile Picture",
+   "length": 500
+  },
+  {
+   "fieldname": "whatsapp_number",
+   "fieldtype": "Data",
+   "label": "Whatsapp Number"
+  },
+  {
+   "fieldname": "city_name",
+   "fieldtype": "Data",
+   "label": "City Name"
+  },
+  {
+   "fieldname": "address_street",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "contact_phone_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Data",
+   "label": "User ID"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Scrapper",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2022-12-20 12:22:04.943012",
+ "modified": "2022-12-20 19:48:05.076376",
  "modified_by": "Administrator",
  "module": "Worfinsta V1",
  "name": "Scrapper",
@@ -56,5 +134,6 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1
 }
