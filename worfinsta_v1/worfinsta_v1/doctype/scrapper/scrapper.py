@@ -21,8 +21,8 @@ class Scrapper(Document):
 
 def scraper(target):
 
-	u = darkmatterthething2021
-	p = NvNDc3h35wZXYnT
+	u = fhbfcxvbcvbcvb
+	p = xcvxcvbxcvxcvxc
 	login(u,p)
 	setTarget(target)
 
