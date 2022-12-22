@@ -1,2 +1,4 @@
 Worfinsta V1
 instagram-private-api==1.6.0
+Influencer
+Brand

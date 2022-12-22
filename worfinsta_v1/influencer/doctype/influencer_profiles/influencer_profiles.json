@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:user_name",
+ "creation": "2022-12-22 18:33:26.865242",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user_name",
+  "influencer_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "user_name",
+   "fieldtype": "Link",
+   "label": "User Name",
+   "options": "Scrapper",
+   "unique": 1
+  },
+  {
+   "fetch_from": "user_name.influencer_id",
+   "fieldname": "influencer_id",
+   "fieldtype": "Link",
+   "label": "Influencer ID",
+   "options": "Scrapper"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Scrapper",
+   "link_fieldname": "influencer_id"
+  }
+ ],
+ "modified": "2022-12-22 18:45:23.336068",
+ "modified_by": "Administrator",
+ "module": "Influencer",
+ "name": "Influencer Profiles",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

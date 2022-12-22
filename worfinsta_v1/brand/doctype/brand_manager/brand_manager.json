@@ -1,38 +1,38 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2022-12-01 16:53:11.441122",
+ "creation": "2022-12-22 13:55:51.859614",
+ "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "user",
-  "company_name"
+  "company_name",
+  "amended_from"
  ],
  "fields": [
   {
-   "fieldname": "user",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "User",
-   "options": "User",
-   "reqd": 1
-  },
-  {
    "fieldname": "company_name",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Company Name",
-   "reqd": 1
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Brand Manager",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2022-12-01 16:53:11.441122",
+ "modified": "2022-12-22 13:55:51.859614",
  "modified_by": "Administrator",
- "module": "Worfinsta V1",
+ "module": "Brand",
  "name": "Brand Manager",
- "name_case": "Title Case",
  "owner": "Administrator",
  "permissions": [
   {
